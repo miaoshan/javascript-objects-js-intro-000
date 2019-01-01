@@ -2,7 +2,7 @@ var playlist={'Robbie Willams': "Rock DJ ",
 
             'Adam Levine': "Purple Rain"};
 
-function updatePlaylist(playlist, artist, songTitle){
+function updatePlaylist(playlist, artis, songTitle){
 
   playlist[artist]=songTitle;
   return playlist;
